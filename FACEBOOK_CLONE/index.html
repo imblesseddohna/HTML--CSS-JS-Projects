@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/b0012fac37.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- --------navbar--------- -->
+    <nav>
+        <div class="nav-left">
+            <!-- --------nav-icons--- -->
+            <a href="index.html"><img src="./images/logo.svg.png" class="logo"></a>
+            <ul>
+                <li><img src="./images/notification.png"></li>
+                <li><img src="./images/inbox.png"></li>
+                <li><img src="./images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="./images/search.png" >
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="SETTINGS_MENU_TOGGLE()">
+                <img src="./img/profile-pic.jpg">
+            </div>
+        </div>
+<!-- -----------settings menu----- -->
+<div class="settings-menu">
+<!-- -----dark mode--- -->
+<div id="dark-btn">
+    <span></span>
+</div>
+
+<!-- ----settings-visible--- -->
+    <div class="settings-menu-inner">
+        <div class="user-profile">
+            <img src="./img/profile-pic.jpg">
+            <div>
+                <p>Aravind</p>
+                <a href="profile.html">See your profile</a>
+            </div>
+        </div>
+        <hr>
+        <div class="user-profile">
+            <img src="./images/feedback.png">
+            <div>
+                <p>Give feedback</p>
+                <a href="#">Help us to improve the new design</a>
+            </div>
+        </div>
+        <hr>
+        <div class="settings-links">
+            <img src="./images/setting.png" class="settings-icon">
+            <a href="#">Settings & Privacy <img src="./images/arrow.png" width="10px"></a>
+        </div>
+       
+        <div class="settings-links">
+            <img src="./images/help.png" class="settings-icon">
+            <a href="#">Help & Support<img src="./images/arrow.png" width="10px"></a>
+        </div>
+        
+        <div class="settings-links">
+            <img src="./images/display.png" class="settings-icon">
+            <a href="#">Display & Accessbility<img src="./images/arrow.png" width="10px"></a>
+        </div>
+        
+        <div class="settings-links">
+            <img src="./images/logout.png" class="settings-icon">
+            <a href="#">Logout<img src="./images/arrow.png" width="10px"></a>
+        </div>
+    </div>
+
+</div>
+
+
+    </nav>
+
+    <!-- main -->
+    <div class="container">
+       <!--  --------------left-sidebar------- -->
+        <div class="left-sidebar">
+          <!--   -----links---- -->
+<div class="imp-links">
+    <a href="#"><img src="images/news.png" alt="">latest News</a>
+    <a href="#"><img src="images/friends.png" alt="">Friends</a>
+    <a href="#"><img src="images/group.png" alt="">Group</a>
+    <a href="#"><img src="images/marketplace.png" alt="">Marketplace</a>
+    <a href="#"><img src="images/watch.png" alt="">Watch</a>
+    <a href="">See More</a>
+</div>
+<div class="shorcut-links">
+    <p>Your Shortcuts</p>
+    <a href=""><img src="img/shortcut1.jpg" alt="">jokerintepena </a>
+    <a href=""><img src="img/shortcut2.jpg" alt="">അപരിചിതൻ</a>
+    <a href=""><img src="img/shortcut3.jpg" alt="">apg</a>
+    <a href=""><img src="img/shortcut4.jpg" alt="">escape2music</a>
+</div>
+        </div>
+         <!--  --------------main content------- -->
+        <div class="main-content">
+            <!-- ------story----- -->
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="./images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="./img/shortcut1.jpg">
+                    <p>jokerintepena</p>
+                </div>
+                <div class="story story3">
+                    <img src="./img/shortcut2.jpg">
+                    <p>അപരിചിതൻ</p>
+                </div>
+                <div class="story story4">
+                    <img src="./img/shortcut3.jpg">
+                    <p>apg</p>
+                </div>
+                <div class="story story5">
+                    <img src="./img/shortcut4.jpg">
+                    <p>Escape2music</p>
+                </div>
+            </div>
+<!----------story gallery ends here--------- -->
+<!-- --------activity----- -->
+<div class="write-post-container">
+    <div class="user-profile">
+        <img src="./img/profile-pic.jpg">
+        <div>
+            <p>Aravind</p>
+            <small>Public <i class="fas fa-caret-down"></i></small>
+        </div>
+    </div>
+    <div class="post-input-container">
+        <textarea  rows="3" placeholder="Whats on our mind, John?"></textarea>
+        <div class="add-post-links">
+            <a href="#"><img src="./images/live-video.png">Live Video</a>
+            <a href="#"><img src="./images/photo.png">Photo/Video</a>
+            <a href="#"><img src="./images/feeling.png">Feeling Activity</a>
+        </div>
+    </div>
+</div>
+<!-- --------activity ends here---------- -->
+<!-- ------posts starts here-------- -->
+<div class="post-container">
+    <div class="post-row">
+        <!-- ----first-post--- -->
+        <div class="user-profile">
+            <img src="./img/profile-pic.jpg">
+            <div>
+                <p>Aravind</p>
+                <span>15 April 2022, 13:40pm</span>
+            </div>
+        </div>
+        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+    </div>
+    
+    <p class="post-text"></p>
+    <img src="./img/photo1.jpg" class="post-img">
+    <div class="post-row">
+        <div class="activity-icons">
+            <div><img src="./images/like-blue.png">120</div>
+            <div><img src="./images/comments.png">40</div>
+            <div><img src="./images/share.png">20</div>
+        </div>
+        <div class="post-profile-icon">
+            <img src="./img/profile-pic.jpg"><i class="fas fa-caret-down"></i>
+        </div>
+    </div>
+</div>
+<!-- ----second-post--- -->
+<div class="post-container">
+    <div class="post-row">
+        <div class="user-profile">
+            <img src="./img/profile-pic.jpg">
+            <div>
+                <p>Aravind</p>
+                <span>15 April 2022, 13:50pm</span>
+            </div>
+        </div>
+        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+    </div>
+    
+    <p class="post-text"></p>
+    <img src="./img/photo2.jpg" class="post-img">
+    <div class="post-row">
+        <div class="activity-icons">
+            <div><img src="./images/like-blue.png">100</div>
+            <div><img src="./images/comments.png">38</div>
+            <div><img src="./images/share.png">12</div>
+        </div>
+        <div class="post-profile-icon">
+            <img src="./img/profile-pic.jpg"><i class="fas fa-caret-down"></i>
+        </div>
+    </div>
+</div>
+<!-- ----Third-post--- -->
+<div class="post-container">
+    <div class="post-row">
+        <div class="user-profile">
+            <img src="./img/profile-pic.jpg">
+            <div>
+                <p>Aravind</p>
+                <span>May 30 2022</span>
+            </div>
+        </div>
+        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+    </div>
+    
+    <p class="post-text"></p>
+    <img src="./img/photo3.jpg" class="post-img">
+    <div class="post-row">
+        <div class="activity-icons">
+            <div><img src="./images/like-blue.png">120</div>
+            <div><img src="./images/comments.png">40</div>
+            <div><img src="./images/share.png">20</div>
+        </div>
+        <div class="post-profile-icon">
+            <img src="./img/profile-pic.jpg"><i class="fas fa-caret-down"></i>
+        </div>
+    </div>
+</div>
+<!-- ----fourth-post--- -->
+<div class="post-container">
+    <div class="post-row">
+        <div class="user-profile">
+            <img src="./img/profile-pic.jpg">
+            <div>
+                <p>Aravind</p>
+                <span>July 14 2022, 13:40pm</span>
+            </div>
+        </div>
+        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+    </div>
+    
+    <p class="post-text"></p>
+    <img src="./img/photo4.jpg" class="post-img">
+    <div class="post-row">
+        <div class="activity-icons">
+            <div><img src="./images/like-blue.png">120</div>
+            <div><img src="./images/comments.png">40</div>
+            <div><img src="./images/share.png">20</div>
+        </div>
+        <div class="post-profile-icon">
+            <img src="./img/profile-pic.jpg"><i class="fas fa-caret-down"></i>
+        </div>
+    </div>
+</div>
+<!-- ----fifth-post--- -->
+<div class="post-container">
+    <div class="post-row">
+        <div class="user-profile">
+            <img src="./img/profile-pic.jpg">
+            <div>
+                <p>Aravind</p>
+                <span>June 24 2021, 13:40pm</span>
+            </div>
+        </div>
+        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+    </div>
+    
+    <p class="post-text"></p>
+    <img src="./img/profile-pic.jpg" class="post-img">
+    <div class="post-row">
+        <div class="activity-icons">
+            <div><img src="./images/like-blue.png">120</div>
+            <div><img src="./images/comments.png">40</div>
+            <div><img src="./images/share.png">20</div>
+        </div>
+        <div class="post-profile-icon">
+            <img src="./img/profile-pic.jpg"><i class="fas fa-caret-down"></i>
+        </div>
+    </div>
+</div>
+
+<button type="button" class="load-more-btn">Load More</button>
+
+</div>
+         <!--  --------------right-sidebar------- -->
+        <div class="right-sidebar">
+         <!--    ---events--- -->
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+         </div>
+<!-- ----first-event--- -->
+         <div class="event">
+            <div class="left-event">
+                <h3>18</h3>
+                <span>March</span>
+            </div>
+            <div class="right-event">
+                <h4>Social Media</h4>
+                <p><i class="fa-solid fa-globe" style="color: #0f5adb"></i>Trivandrum</p>
+                <a href="#">More Info</a>
+            </div>
+         </div>
+         <!-- ----second event--- -->
+         <div class="event">
+            <div class="left-event">
+                <h3>26</h3>
+                <span>June</span>
+            </div>
+            <div class="right-event">
+                <h4>Mobile Marketing</h4>
+                <p><i class="fa-solid fa-globe" style="color: #0f5adb"></i> Ernakulam</p>
+                <a href="#">More Info</a>
+            </div>
+        </div>
+        <!-- ---advertisements--- -->
+        <div class="sidebar-title">
+            <h4>Advertisement</h4>
+            <a href="#">Close</a>
+     </div>
+     <img src="./img/add.jpg" class="sidebar-ads">
+   <!--   ----online--conversation--- -->
+     <div class="sidebar-title">
+        <h4>Conversation</h4>
+        <a href="#">Hide Chat</a>
+ </div>
+ <div class="online-list">
+    <div class="online">
+        <img src="img/shortcut1.jpg" class="online-img">
+    </div>
+    <p>jokerintepena</p>
+ </div>
+ <div class="online-list">
+    <div class="online">
+        <img src="img/shortcut2.jpg" class="online-img">
+    </div>
+    <p>അപരിചിതൻ</p>
+ </div>
+ <div class="online-list">
+    <div class="online">
+        <img src="img/shortcut3.jpg" class="online-img">
+    </div>
+    <p>apg</p>
+ </div>
+
+        </div>
+    </div>
+<!-- -----footer--- -->
+    <div class="footer">
+        <p>Copyright 2023 -Facebook.com</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
