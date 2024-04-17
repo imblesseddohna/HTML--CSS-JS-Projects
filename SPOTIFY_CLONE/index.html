@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="./img/logo.png" alt="Spotify">  Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+        <h1>Playlist No:1</h1>
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img>
+                <span class="SongName">Sickick-Intro(Infected)</span>
+                <span class="songlistplay"><span class="timestamp">04:54<i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img>
+                <span class="SongName">Dzanum</span>
+                <span class="songlistplay"><span class="timestamp">03:38<i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="./img/cover2.jpeg">
+                <span class="SongName">Instasamka</span>
+                <span class="songlistplay"><span class="timestamp">0:26<i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img>
+                <span class="SongName">Nightcore Thunder</span>
+                <span class="songlistplay"><span class="timestamp">03:36<i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img>
+                <span class="SongName">Weekend</span>
+                <span class="songlistplay"><span class="timestamp">0:30<i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img>
+                <span class="SongName">Love your Voice</span>
+                <span class="songlistplay"><span class="timestamp">02:30 <i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img>
+                <span class="SongName">Coldplay</span>
+                <span class="songlistplay"><span class="timestamp">04:20<i id="6" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img>
+                <span class="SongName">Infinity</span>
+                <span class="songlistplay"><span class="timestamp">03:57 <i id="7" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img>
+                <span class="SongName">No Lie</span>
+                <span class="songlistplay"><span class="timestamp">0:30<i id="8" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img>
+                <span class="SongName">Middle of the Night</span>
+                <span class="songlistplay"><span class="timestamp">0:28<i id="9" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+        </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="icons">
+            <i class="fas fa-2x fa-step-backward" style="color: #ffffff;" id="previous"></i>
+            <i class="far fa-2x fa-play-circle" style="color: #ffffff;" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" style="color: #ffffff;" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="./img/playing.gif" width="42px" id="gif"><span id="masterSongName">Sickick-Intro(Infected)</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/b0012fac37.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
